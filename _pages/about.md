@@ -1,25 +1,23 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Research Assistant Professor, <a href='https://www.uvm.edu/cems/ebe'>Electrical and Biomedical Engineering, UVM</a>. 
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Votey Hall, Room 301</p>
+    <p>33 Colchester Ave</p>
+    <p>Burlington, VT 05405</p>
 
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false # includes a list of news items
+selected_papers: False # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
+Jackson Anderson received his BS ('15) and MS ('17) in microelectronic engineering from the Rochester Institute of Technology and his PhD ('23) in electrical and computer engineering from Purdue University. He has interned in the areas of in-line test, yield analysis, and manufacturing technoogy (data analytics) at Globalfoundries/IBM Microelectronics. He joined UVM in 2023, where he established laboratories for microelectronics teaching and research as part of a Department of Education effort to close the growing workforce gap in the semiconductor industry. His research interests lie in the area of piezo and ferroelectric materials characterization, how these materials can be integrated into electrical and mechanical devices, and how these devices can be integrated in commercial fabrication processes to enable new functionality and increased efficiency in circuits. 
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Interested in joining? Send an email with CV, transcript, and summary of your background qualifications and interests using the mail icon at the bottom of the page. GRE scores are optional but not required. If an international student, please include english proficiency scores. Note that there is a strict minimum of 100/7.0/120 for TOEFL/IELTS/Duolingo.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
