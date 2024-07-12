@@ -12,7 +12,8 @@ Piezoelectric materials, which convert mechanical to electrical energy (and vice
 
 
 ---
-
-This work is supported by the National Science Foundation, award #2348101. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.
+Interested in this topic? Send an email following the instructions on the about page, referencing watermelon in your email.
 
 ---
+
+The study of alpha-In2Se3 is supported by the National Science Foundation, award #2348101. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.
