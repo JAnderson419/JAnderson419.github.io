@@ -1,6 +1,6 @@
 ---
 layout: cv
-permalink: /assets/pdf/JacksonAnderson_CV_0704.pdf
+permalink: /assets/pdf/25_09_JacksonAnderson_CV.pdf
 title: CV
 nav: false
 nav_order: 5

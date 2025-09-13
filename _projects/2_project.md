@@ -16,4 +16,9 @@ Interested in this topic? Send an email following the instructions on the about 
 
 ---
 
-The study of alpha-In2Se3 is supported by the National Science Foundation, award #2348101. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.
+This work has been generously supported by the following sponsors:
+ - Alpha-In2Se3: National Science Foundation[^1], award #2348101. 
+
+---
+
+[^1]: Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.
