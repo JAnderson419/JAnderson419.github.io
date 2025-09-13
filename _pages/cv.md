@@ -5,4 +5,4 @@ title: CV
 nav: false
 nav_order: 5
 ---
-# not used currently - see header.liquid
+# not used currently - change in .config.yml

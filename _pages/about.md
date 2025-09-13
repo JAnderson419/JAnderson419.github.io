@@ -9,8 +9,8 @@ profile:
   image: Jackson_Anderson.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Votey Hall, Room 301</p>
-    <p>33 Colchester Ave</p>
+    <p>Votey Hall, Room 301</p> <br>
+    <p>33 Colchester Ave</p> <br>
     <p>Burlington, VT 05405</p>
 
 news: true # includes a list of news items
