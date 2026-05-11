@@ -11,15 +11,22 @@
       {% endif %}
     </h3>
 
-    <p class="member-role">{{ member.role }}</p>
-    <p class="member-dates">
-      {{ member.start_date | date: "%Y" }}
+    <p class="member-role"; style="margin : 0;"><b>Discipline:</b> {{ member.role }}</p>
+    <p class="member-dates"; style="margin : 0; padding-top:0;">
+      <b>Years Active:</b> {{ member.start_date | date: "%Y" }}
       {% if member.active %}
         - Present
       {% else %}
         - {{ member.end_date | date: "%Y" }}
+
       {% endif %}
     </p>
+    {% if member.active %}
+    <br>
+    {% else %}
+    <p class="member-outcome"; style="padding-top:0;">
+    <b>Post Graduation Role:</b> {{member.outcome}}</p>
+    {% endif %}
 <div class="member-card">
   <div class="member-photo">
     {% if member.image %}
