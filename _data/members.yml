@@ -1,0 +1,81 @@
+- name: "Aria Lindberg"
+  level: "PhD"
+  role: "Electrical Engineering"
+  
+  # image: ""
+  description: "Aria Lindberg joined as an undergraduate student pursuing a Bachelor of Science in Electrical Engineering at the University of Vermont, with a concentration in semiconductor devices through the Undergraduate Certificate in Semiconductor Engineering and Physics (UCSEP) program. She is a recipient of the 2025 Vermont Space Grant Consortium (VTSGC) Research Experience for Undegraduates Award and 2026 VTSGC Graduate Fellowship, focused on the characterization of sputter-deposited Ga2O3 thin films. "
+  start_date: "2025-09-01"
+  # outcome:
+  active: true
+  # email: "jane@university.edu"
+  # github: "janesmith"
+  # twitter: "janesmith"
+  # scholar: "https://scholar.google.com/citations?user=XXXXX"
+  # linkedin: "janesmith"
+  # website: "https://janesmith.com"
+
+- name: "Marzia Sultana"
+  level: PhD
+  role: "Electrical Engineering"
+  
+  # image: "dan_n.png"
+  description: "Marzia Sultana is a PhD student and Graduate Research Assistant in the Anderson Lab at the University of Vermont, focusing on the fabrication and characterization of ferroelectric materials and 2D films for next-generation RF communication systems. Her research involves nanoscale device fabrication using lithography, SEM, AFM, and reflectometry. She joined UVM in January 2025 after earning an M.Sc. and B.Sc. in Electrical and Electronic Engineering from the University of Dhaka, where she gained experience in material characterization techniques such as PXRD, DLS and conducted research on MOF-based water harvesting, sorption-enhanced PVT devices, and COMSOL-based pressure sensor simulations."
+  start_date: "2025-01-01"
+  # end_date: "2025-05-31"
+  # outcome:
+  active: true
+
+- name: "Dan Nalepa"
+  level: "BS"
+  role: "Electrical Engineering"
+  image: "dan_n.png"
+  description: "Daniel Nalepa is an undergraduate student pursuing a Bachelor of Science in Electrical Engineering at the University of Vermont, with a concentration in semiconductor devices through the Undergraduate Certificate in Semiconductor Engineering and Physics (UCSEP) program. His current research is focused on the characterization of ferroelectric materials for use in non-volatile memory applications such as FeRAM. Daniel has been investigating polarization hysteresis behavior of potential ferroelectric devices using a Keithley 4200 Parametric Analyzer. His work on this area has contributed to the validation of testing methods for future custom ferroelectric devices using UVM's new deposition tool."
+  start_date: "2025-01-01"
+  end_date: "2025-05-31"
+  outcome: "Test Engineer, GlobalFoundries"
+  active: false
+
+- name: "Nate Seibold"
+  level: "BS"
+  role: "Electrical Engineering"
+  image: "nSeibold.png"
+  description: "Nate Seibold is an undergraduate pursuing a B.S. in Electrical Engineering with a focus on semiconductor devices through the Certificate in Semiconductor Engineering and Physics. An interest in the fabrication processes of semiconductor devices led to research surrounding the production of SAW devices using bi-layer liftoff lithography. His work focuses on the development of a standard process that can be used to enable the high-yield production of devices using these techniques at UVM."
+  start_date: "2025-01-01"
+  end_date: "2025-05-31"
+  outcome:
+  active: false
+
+- name: "Ian Cassidy"
+  level: "MS"
+  role: "Electrical Engineering"
+  # image: "dan_n.png"
+  description: "Ian Cassidy is an undergraduate student in Electrical Engineering at the University of Vermont, focusing on semiconductor engineering and device physics. His research focuses on surface acoustic wave devices on lithium niobate and clean room process optimization."
+  start_date: "2025-01-01"
+  active: true
+
+- name: "Ryan Anderson"
+  level: "MS"
+  role: "Electrical Engineering"
+  # image: "dan_n.png"
+  description: "Daniel Nalepa is an undergraduate student pursuing a Bachelor of Science in Electrical Engineering at the University of Vermont, with a concentration in semiconductor devices through the Undergraduate Certificate in Semiconductor Engineering and Physics (UCSEP) program. His current research is focused on the characterization of ferroelectric materials for use in non-volatile memory applications such as FeRAM. Daniel has been investigating polarization hysteresis behavior of potential ferroelectric devices using a Keithley 4200 Parametric Analyzer. His work on this area has contributed to the validation of testing methods for future custom ferroelectric devices using UVM's new deposition tool."
+  start_date: "2025-09-01"
+  active: true
+
+- name: "Matt Rogers"
+  level: "BS"
+  role: "Mechanical Engineering"
+  # image: "dan_n.png"
+  description: "Matthew Rogers is a senior Mechanical Engineering student at the University of Vermont whose research focuses on automating dielectric reliability testing. He has been a certified aircraft mechanic for five years, bringing practical hands on experience in high-reliability systems. His research interests include high-performance computing and semiconductor fabrication."
+  start_date: "2024-09-01"
+  end_date: "2025-12-31"
+  outcome:
+  active: false
+
+- name: "Erik Iverson"
+  level: "MS"
+  role: "Electrical Engineering"
+  description: "Erik Iverson is a Master’s student in Electrical Engineering at the University of Vermont, specializing in MEMS resonators and power electronics. His research focuses on the modeling and integration of piezoelectric devices for on-chip power conversion, leveraging commercial GaN foundry processes and advanced finite element simulation. He has experience in both industry and academia, with prior roles at energy conversion and storage companies."
+  start_date: "2024-01-01"
+  end_date: "2026-05-31"
+  outcome: "Electrical Design Engineer, Dynapower"
+  active: false

@@ -1,0 +1,91 @@
+---
+layout: default
+---
+
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-description">{{ page.description }}</p>
+  </header>
+
+  <article>
+    <!-- Current Members Section -->
+    <div class="members-section">
+      <h2 class="section-title"><b>Current Members</b></h2>
+      <hr>
+      <h3 class="section-title"><b>PhD Students</b></h3>
+      {% assign current_members = site.data.members 
+         | where: "active", true 
+         | where: "level", "PhD"
+         | sort: "start_date" %}
+      <div class="members-grid">
+        {% for member in current_members %}
+          {% include member_card.html member=member %}
+        {% endfor %}
+      </div>
+      <hr>
+      <h3 class="section-title"><b>MS Students</b></h3>      
+      {% assign current_members = site.data.members 
+         | where: "active", true 
+         | where: "level", "MS"
+         | sort: "start_date" %}
+      <div class="members-grid">
+        {% for member in current_members %}
+          {% include member_card.html member=member %}
+        {% endfor %}
+      </div>
+      <hr>
+      <h3 class="section-title"><b>BS Students</b></h3>
+         {% assign current_members = site.data.members 
+         | where: "active", true 
+         | where: "level", "BS"
+         | sort: "start_date" %}  
+      <div class="members-grid">
+        {% for member in current_members %}
+          {% include member_card.html member=member %}
+        {% endfor %}
+      </div>
+    </div>
+  <br><br>
+    <!-- Past Members Section -->
+    <div class="members-section">
+      <h2 class="section-title"><b>Alumni</b></h2>
+      <hr>
+      {% assign past_members = site.data.members 
+         | where: "active", false 
+         | where: "level", "PhD"
+         | sort: "start_date" 
+         | reverse %}
+      
+      <div class="members-grid">
+        {% for member in past_members %}
+          {% include member_card.html member=member %}
+        {% endfor %}
+      </div>
+            <hr>
+      {% assign past_members = site.data.members 
+         | where: "active", false 
+         | where: "level", "MS"
+         | sort: "start_date" 
+         | reverse %}
+      
+      <div class="members-grid">
+        {% for member in past_members %}
+          {% include member_card.html member=member %}
+        {% endfor %}
+      </div>
+            <hr>
+      {% assign past_members = site.data.members 
+         | where: "active", false 
+         | where: "level", "BS"
+         | sort: "start_date" 
+         | reverse %}
+      
+      <div class="members-grid">
+        {% for member in past_members %}
+          {% include member_card.html member=member %}
+        {% endfor %}
+      </div>
+    </div>
+  </article>
+</div>

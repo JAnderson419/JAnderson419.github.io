@@ -1,0 +1,81 @@
+
+
+
+  <div class="member-info">
+    
+    <h3 class="member-name">
+      {% if member.website %}
+        <a href="{{ member.website }}" target="_blank">{{ member.name }}</a>
+      {% else %}
+        {{ member.name }}
+      {% endif %}
+    </h3>
+
+    <p class="member-role">{{ member.role }}</p>
+    <p class="member-dates">
+      {{ member.start_date | date: "%Y" }}
+      {% if member.active %}
+        - Present
+      {% else %}
+        - {{ member.end_date | date: "%Y" }}
+      {% endif %}
+    </p>
+<div class="member-card">
+  <div class="member-photo">
+    {% if member.image %}
+      <img 
+        src="{{ member.image | prepend: '/assets/img/' | relative_url }}" 
+        alt="{{ member.name }}"
+        class="member-img"
+        height="200" 
+      >
+      <br><br>
+    {% else %}
+      <!-- <img 
+        src="{{ '/assets/img/default_profile.jpg' | relative_url }}" 
+        alt="{{ member.name }}"
+        class="member-img"
+      > -->
+    {% endif %}
+  </div>
+
+    {% if member.description %}
+      <p class="member-description">{{ member.description }}</p>
+    {% endif %}
+
+
+
+    <!-- Social Links -->
+    <div class="member-social">
+      {% if member.email %}
+        <a href="mailto:{{ member.email }}" title="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      {% endif %}
+      {% if member.github %}
+        <a href="https://github.com/{{ member.github }}" 
+           target="_blank" title="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+      {% endif %}
+      {% if member.twitter %}
+        <a href="https://twitter.com/{{ member.twitter }}" 
+           target="_blank" title="Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      {% endif %}
+      {% if member.scholar %}
+        <a href="{{ member.scholar }}" target="_blank" title="Google Scholar">
+          <i class="ai ai-google-scholar"></i>
+        </a>
+      {% endif %}
+      {% if member.linkedin %}
+        <a href="https://linkedin.com/in/{{ member.linkedin }}" 
+           target="_blank" title="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      {% endif %}
+    </div>
+  </div>
+</div>
+<hr>

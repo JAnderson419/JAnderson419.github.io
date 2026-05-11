@@ -196,6 +196,8 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  profiles:
+    output: false
 
 announcements:
   enabled: true
