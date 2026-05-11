@@ -51,6 +51,7 @@ layout: default
     <div class="members-section">
       <h2 class="section-title"><b>Alumni</b></h2>
       <hr>
+      <h3 class="section-title"><b>PhD Students</b></h3>  
       {% assign past_members = site.data.members 
          | where: "active", false 
          | where: "level", "PhD"
@@ -62,7 +63,8 @@ layout: default
           {% include member_card.html member=member %}
         {% endfor %}
       </div>
-            <hr>
+      <hr>
+      <h3 class="section-title"><b>MS Students</b></h3>  
       {% assign past_members = site.data.members 
          | where: "active", false 
          | where: "level", "MS"
@@ -74,7 +76,8 @@ layout: default
           {% include member_card.html member=member %}
         {% endfor %}
       </div>
-            <hr>
+      <hr>
+      <h3 class="section-title"><b>BS Students</b></h3>  
       {% assign past_members = site.data.members 
          | where: "active", false 
          | where: "level", "BS"
